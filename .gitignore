@@ -166,3 +166,12 @@ cython_debug/
 *.db
 
 echo "tmp/" >> .gitignore
+
+# Ignore all mlflow runs and models 
+mlruns/
+mlartifacts/
+
+
+# Ignore all data files 
+data/
+*.pkl 
